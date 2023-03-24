@@ -1,7 +1,7 @@
 
 package inmvipi.Menu;
 import inmvipi.CrearContratoArriendo.JF_CrearContrato;
-import inmvipi.IVP_GUI.sistema;
+import IVP.IVP;
 
 /**
  *
@@ -180,7 +180,7 @@ JF_CrearContrato JF_CrearContrato = new JF_CrearContrato();
         JF_CrearContrato.setLocationRelativeTo(null);
         this.setVisible(false);
         JF_CrearContrato.setVisible(true);
-        sistema sistema = new sistema();
+        IVP sistema = new IVP();
         sistema.setVisible(false);
     }//GEN-LAST:event_jButton1ActionPerformed
 

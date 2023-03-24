@@ -11,7 +11,7 @@ import java.sql.SQLException;
 import javax.swing.JOptionPane;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import inmvipi.IVP_GUI.sistema;
+import IVP.IVP;
 /**
  *
  * @author USER
@@ -419,7 +419,7 @@ public class JF_Coodeudores extends javax.swing.JFrame {
             con.commit();
             JOptionPane.showMessageDialog(null,"CONTRATO ACTUALIZADO");
             this.setVisible(false);
-            sistema sistema = new sistema();
+            IVP sistema = new IVP();
             sistema.setVisible(true);
         }catch (SQLException ex) {
             con.rollback(); 
