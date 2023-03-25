@@ -11,7 +11,7 @@ import java.sql.SQLException;
 import javax.swing.JOptionPane;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import IVP.IVP;
+import inmvipi.IVP.IVP;
 /**
  *
  * @author USER

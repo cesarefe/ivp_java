@@ -1,7 +1,7 @@
 
 package inmvipi.Menu;
 import inmvipi.CrearContratoArriendo.JF_CrearContrato;
-import IVP.IVP;
+import inmvipi.IVP.IVP;
 
 /**
  *

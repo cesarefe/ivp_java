@@ -1,4 +1,4 @@
-package IVP;
+package inmvipi.IVP;
 
 import inmvipi.Conex_DB.Conex_DB;
 import java.sql.Connection;
